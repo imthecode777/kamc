@@ -10,6 +10,10 @@
   src: url(./fonts/JAVATA.ttf);
 }
 @font-face {
+  font-family: Bhaijaan;
+  src: url(./fonts/BalooBhaijaan2-Regular.ttf);
+}
+@font-face {
   font-family: Lemon Milk;
   src: url(./fonts/LEMONMILK-Medium.ttf);
 }
@@ -1043,3 +1047,10 @@ animation: l3 1s infinite linear;
 }
 
 @keyframes l3 {to{transform: rotate(1turn)}}
+
+
+
+.arabic-text{
+  font-family: Bhaijaan;
+  color:#00aaff;
+}
