@@ -1054,3 +1054,22 @@ animation: l3 1s infinite linear;
   font-family: Bhaijaan;
   color:#00aaff;
 }
+
+.footer_text a{
+  text-decoration: none;
+  color: #838080;
+}
+
+.footer_text a:hover {
+  background: linear-gradient(109.2deg, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer_text a:active {
+  background: linear-gradient(109.2deg, rgb(255, 97, 0) 9.3%, rgb(104, 50, 255) 89.5%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(0.98); /* Adds a slight press effect */
+  transition: transform 0.1s ease;
+}
