@@ -433,3 +433,23 @@
       margin-bottom: 20px; /* Increase space between containers */
   }
 }
+
+
+.footer_text a{
+  text-decoration: none;
+  color: #838080;
+}
+
+.footer_text a:hover {
+  background: radial-gradient(circle at 10% 20%, rgb(59, 149, 237) 0%, rgb(7, 91, 173) 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer_text a:active {
+  background: radial-gradient(circle at 50% 50%, rgb(49, 129, 217) 0%, rgb(5, 71, 153) 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(0.98); /* Adds a slight press effect */
+  transition: transform 0.1s ease;
+}
